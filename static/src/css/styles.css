@@ -1,0 +1,39 @@
+/* Estilos específicos solo para la vista Kanban de gestión de tareas */
+.gestion_tarea_kanban {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    max-width: 280px;
+    min-height: 140px;
+}
+
+.gestion_tarea_kanban > div {
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+.gestion_tarea_kanban > div:first-child {
+    background-color: #3f51b5;
+    color: white;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.gestion_tarea_kanban strong {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.gestion_tarea_kanban button {
+    font-size: 12px;
+    padding: 5px 10px;
+}
+
+.gestion_tarea_kanban span {
+    font-size: 14px;
+}

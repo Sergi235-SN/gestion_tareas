@@ -1,4 +1,3 @@
-# gestion_tareas/__manifest__.py
 {
     'name': 'Gestión de Tareas',
     'version': '1.0',
@@ -13,6 +12,11 @@
         'views/gestion_tarea_views.xml',
         'security/ir.model.access.csv',
     ],
+    'assets': {
+        'web.assets_backend': [
+            '/gestion_tareas/static/src/css/styles.css',
+        ],
+    },
     'application': True,
     'installable': True,
     'auto_install': False,
